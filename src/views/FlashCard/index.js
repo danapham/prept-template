@@ -10,6 +10,7 @@ export default class FlashCard extends React.Component {
     flashCards: [],
     currentCard: {},
     answer: false,
+    form: false,
   }
 
   componentDidMount() {
